@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>particle.frag</file>
+        <file>particle.vert</file>
+        <file>particle.png</file>
+        <file>particle.jpg</file>
+    </qresource>
+</RCC>
