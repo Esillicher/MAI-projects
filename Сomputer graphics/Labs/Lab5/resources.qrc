@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>raw/ground.raw</file>
+        <file>shaders/ground.frag</file>
+        <file>shaders/ground.vert</file>
+        <file>textures/ground.jpg</file>
+        <file>textures/sphere.jpg</file>
+        <file>raw/sphere.raw</file>
+        <file>raw/ladder.raw</file>
+        <file>textures/ladder.jpg</file>
+    </qresource>
+</RCC>
