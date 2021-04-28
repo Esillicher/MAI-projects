@@ -1,0 +1,17 @@
+SELECT *;
+ FROM ;
+     View2;
+ WHERE  View2.название = ( "Физика" );
+ INTO CURSOR tmp  
+
+SELECT "N" as Оценка, COUNT(tmp.оценка) as Кол_во FROM tmp WHERE tmp.оценка=0 INTO CURSOR  st0
+     
+SELECT "2" as Оценка, COUNT(tmp.оценка) as Кол_во FROM tmp WHERE tmp.оценка=2 INTO CURSOR  st
+
+SELECT "3" as Оценка, COUNT(tmp.оценка) as Кол_во FROM tmp WHERE tmp.оценка=3 INTO CURSOR  st1
+
+SELECT "4" as Оценка, COUNT(tmp.оценка) as Кол_во FROM tmp WHERE tmp.оценка=4 INTO CURSOR  st2
+
+SELECT "5" as Оценка, COUNT(tmp.оценка) as Кол_во FROM tmp WHERE tmp.оценка=5 INTO CURSOR  st3
+
+SELECT *  FROM st0 UNION SELECT *  FROM st UNION SELECT *  FROM st1 UNION SELECT *  FROM st2 UNION SELECT *  FROM st3

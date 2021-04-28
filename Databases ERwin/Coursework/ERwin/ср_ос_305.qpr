@@ -1,0 +1,7 @@
+SELECT *;
+ FROM ;
+     View2_a View2_a;
+ WHERE  View2_a.???? = ( "??. ????" );
+ INTO CURSOR tmp  
+
+SELECT AVG(tmp.???) FROM tmp WHERE tmp.?='305'

@@ -1,0 +1,7 @@
+SELECT *;
+ FROM ;
+     View2_a View2_a;
+ WHERE  View2_a.название = ( "Теор. мех." );
+ INTO CURSOR tmp  
+
+SELECT AVG(tmp.оценка) FROM tmp WHERE tmp.нг='304'

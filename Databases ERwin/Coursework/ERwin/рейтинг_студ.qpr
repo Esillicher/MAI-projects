@@ -1,0 +1,5 @@
+SELECT View2.фио_b AS фио_студ, SUM(View2.оценка) AS рейтинг;
+ FROM ;
+     VIEW2;
+ WHERE  View2.нс BETWEEN 1 AND 24;
+ GROUP BY View2.фио_b
