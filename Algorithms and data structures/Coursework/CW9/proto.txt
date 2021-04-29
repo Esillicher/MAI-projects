@@ -1,0 +1,32 @@
+Enter filename: test.txt
+
+Default table:
+ddddd Or_to_take_arms_against_a_sea_of_troubles,
+ccccc The_slings_and_arrows_of_outrageous_fortune,
+fffff No_more;_and_by_a_sleep_to_say_we_end
+jjjjj To_sleep:_perchance_to_dream:_ay,_there's_the_rub;
+hhhhh That_flesh_is_heir_to,_'tis_a_consummation
+iiiii Devoutly_to_be_wish'd._To_die,_to_sleep;
+aaaaa To_be,_or_not_to_be:_that_is_the_question:
+ggggg The_heart-ache_and_the_housand_natural_shocks
+eeeee And_by_opposing_end_them?_To_die:_to_sleep;
+aaaaa Whether_'tis_nobler_in_the_mind_to_suffer
+
+Sorting table:
+aaaaa To_be,_or_not_to_be:_that_is_the_question:
+aaaaa Whether_'tis_nobler_in_the_mind_to_suffer
+ccccc The_slings_and_arrows_of_outrageous_fortune,
+ddddd Or_to_take_arms_against_a_sea_of_troubles,
+eeeee And_by_opposing_end_them?_To_die:_to_sleep;
+fffff No_more;_and_by_a_sleep_to_say_we_end
+ggggg The_heart-ache_and_the_housand_natural_shocks
+hhhhh That_flesh_is_heir_to,_'tis_a_consummation
+iiiii Devoutly_to_be_wish'd._To_die,_to_sleep;
+jjjjj To_sleep:_perchance_to_dream:_ay,_there's_the_rub;
+
+Enter key to find
+aaaaa
+This element:
+To_be,_or_not_to_be:_that_is_the_question:
+This element:
+Whether_'tis_nobler_in_the_mind_to_suffer

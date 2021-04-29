@@ -1,0 +1,73 @@
+------------------------------------
+open "file"                                     - open file.
+close                                           - close current file.
+add                                             - add graduate.
+        -f "filename"                           - from file.
+        -m "information"*                       - manually.
+gen "filename" "number of graduates"            - generate database.
+del "student_name"                              - delete student
+print                                           - print current file.
+solution                                        - solve the problem.
+help                                            - show help(this).
+clear                                           - clear screen.
+
+*graduate information format:
+"name" "initials" "gender" "class number" "class letter" "workplace"
+
+------------------------------------
+Current file:
+=:> open spisok.spisok
+File opened.
+Current file: spisok.spisok
+=:> print
+spisok.spisok
+============================================
+  1. Smertina             LM female    8 B MSU
+  2. Uvarov               SS male      9 B MANAGER
+  3. Volok                QY male     10 A BIBLIOTEKA
+  4. Shipunov             WY male      7 C NACHALNIK CEHA
+  5. Senechkin            GJ male      7 B MANAGER
+  6. Rzhavina             IX female    8 A MANAGER
+  7. Zaycev               VS male      7 B MSU
+  8. Volok                RE male      9 C ZAVOD
+  9. Zaycev               ZR male     10 B MANAGER
+ 10. Smertina             OO female    7 C MIPT
+ 11. Antonova             HW female    9 A PROGRAMMIST
+ 12. Makarov              LR male      9 D BUS_IN_ASS_MAN
+ 13. Zhirinovsky          KM male      9 C UBORSHIK
+ 14. Deryabin             OL male     11 A UBORSHIK
+ 15. Gorbunova            FZ female    8 C BIBLIOTEKA
+ 16. Deryabin             PX male     11 D KASSIR
+ 17. Milonov              VK male      8 A PROGRAMMIST
+ 18. Kuzmenko             ZN female   11 B MSU
+ 19. Sinegubova           CP female    8 A MANAGER
+ 20. Kalinina             TV female    9 C LETCHIK
+ 21. Rzhavina             SI female    9 D ZAVOD
+ 22. Shipunov             SV male      8 A UBORSHIK
+ 23. Borisenko            VO female    8 D MANAGER
+ 24. Arefieva             OJ female   10 C MSU
+ 25. Deryabin             AA male      8 B PROGRAMMIST
+ 26. Kalashnikov          KD male      8 B PROGRAMMIST
+ 27. Smertina             OG female    8 B UBORSHIK
+ 28. Antonova             QC female   11 C MAI
+ 29. Uvarov               CY male      9 D LETCHIK
+ 30. Kalinina             DD female   10 A LETCHIK
+ 31. Kalinina             AA female   10 B KASSIR
+ 32. Zhirinovsky          AR male      9 A MANAGER
+ 33. Deryabin             OV male     11 G DEPUTAT
+============================================
+Current file: spisok.spisok
+=:> solution
+  1. Smertina             LM,  8 B
+ 27. Smertina             OG,  8 B
+  2. Uvarov               SS,  9 B
+ 29. Uvarov               CY,  9 D
+ 13. Zhirinovsky          KM,  9 C
+ 32. Zhirinovsky          AR,  9 A
+ 14. Deryabin             OL, 11 A
+ 16. Deryabin             PX, 11 D
+ 33. Deryabin             OV, 11 G
+ 30. Kalinina             DD, 10 A
+ 31. Kalinina             AA, 10 B
+Current file: spisok.spisok
+=:>
